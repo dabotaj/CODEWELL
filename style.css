@@ -118,6 +118,7 @@ input{
 }
 ::placeholder {
     opacity: 1;
+
 }
 .left .spam {
     display: flex;
@@ -184,4 +185,149 @@ footer .question-text p{
 }
 footer .question-text h3{
     margin-top: -20px;
+}
+
+
+
+
+
+@media screen and (max-width: 1526px) {
+    html{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 1236px) {
+    html{
+        font-size: 0.8rem;
+    }
+    main .right{
+        width: 300px;
+        justify-self: flex-end;
+    }
+}
+@media screen and (max-width:1064px) {
+    html{
+        font-size: 0.7rem;
+    }
+    main .right{
+        width: 300px;
+        justify-self: flex-end;
+    }
+}
+@media screen and (max-width: 980px) {
+    section{
+        padding: 3em 6em;
+    }
+    nav ul, .nav-right {
+        display: none;
+    }
+    nav .icon{
+        display: block;
+    }
+    main{
+        flex-direction: column-reverse;
+        margin-top: 20em;
+    }
+    main .left{
+        width: 100%;
+        margin-top: 6em;
+    }
+    main .left h2{
+        font-size: 5rem;
+    }
+    main .left p {
+        width: 100%;
+        font-size: 1.8rem;
+    }
+    .left .button, input, a, p, footer h3{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width: 668px){
+    section{
+        padding: 3em;
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+    }
+    nav {
+        margin-top: -5em;
+    }
+    main{
+        margin-top: 30em;
+    }
+    main label{
+        flex-direction: column;
+    }
+    main .right {
+        padding-left: 2em;
+        width: 250px;
+        margin-top: -15em;
+    }
+    main .left p{
+        font-size: 15px;
+    }
+    main .left{
+        width: 100%;
+        margin-top: -5em;
+    }
+    main span{
+        font-size: 12px;
+    }
+    footer {
+        flex-direction: column;
+    }
+    footer ul{
+        font-size: 12px;
+    }
+    footer p, 
+    footer h3{
+        font-size: 16px;
+    }
+    footer {
+        margin-top: -5em;
+    }
+    nav .icon i{
+        display: block;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 375px) {
+    section{
+        width: 100%;
+        height: auto;
+    }
+    nav{
+        margin-top: -5em;
+    }
+    main .right{
+        margin-top: -10em;
+    }
+    main .left{
+        margin-top: -5em;
+    }
+    main .left h2{
+        font-size: 45px;
+    }
+    main .left p{
+        font-size: 15px;
+        padding-top: 1em;
+    }
+    main label{
+        gap: 1em;
+    }
+    main span{
+        font-size: 12px;
+    }
+    footer ul{
+        font-size: 12px;
+    }
+    footer p, 
+    footer h3{
+        font-size: 15px;
+    }
+    nav .icon i{
+        display: block;
+        font-size: 20px;
+    }
 }
