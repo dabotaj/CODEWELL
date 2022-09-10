@@ -262,7 +262,8 @@ footer .question-text h3{
     main .right {
         padding-left: 2em;
         width: 250px;
-        margin-top: -15em;
+        margin-top: -13em;
+        width: 80%;
     }
     main .left p{
         font-size: 15px;
